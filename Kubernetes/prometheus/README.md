@@ -4,13 +4,13 @@
 
 #### In this lab you will deploy Prometheus and grafana
 
-## Task1: prometheus
+## Prerequisite: Install Helm
 
-1. Install Helm
-``https://github.com/helm/helm/releases/tag/v3.0.1``
+1. Follow the instructions: https://helm.sh/docs/intro/quickstart/
 
+## Task1: Install Prometheus
 
-1. add the helm charts repository
+1. Add the Helm charts repository
 ``helm repo add stable https://kubernetes-charts.storage.googleapis.com``
 
 3. Install prometheus:
